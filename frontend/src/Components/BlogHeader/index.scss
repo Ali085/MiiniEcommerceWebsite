@@ -1,0 +1,17 @@
+.BlogHeader{
+    height: 80vh;
+    width: 100%;
+    background-image: url(https://wallpaperaccess.com/full/3461474.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .blogHeaderDiv{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1{
+            color: white;
+        }
+    }
+}

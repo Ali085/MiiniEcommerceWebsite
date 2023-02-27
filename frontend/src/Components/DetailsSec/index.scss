@@ -1,0 +1,162 @@
+.DetailsSec {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .DetailsDiv {
+        width: 80%;
+
+        .productDetails {
+            display: flex;
+            gap: 30px;
+
+            .detailsImg {
+                img {
+                    width: 500px;
+                    height: 500px;
+                }
+            }
+
+            .detailsData {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .importantData {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                }
+
+                .sumAndBuy {
+                    display: flex;
+                    width: 300px;
+                    justify-content: space-between;
+                    input {
+                        width: 70px;
+                        height: 40px;
+                        border: none;
+                        border-radius: 7px;
+                        font-size: 22px;
+                        padding-left: 20px;
+                    }
+
+                    button {
+                        width: 130px;
+                        height: 40px;
+                        border-radius: 15px;
+                        background-color: #bdefd7;
+                        border: none;
+                        font-weight: 500;
+                        transition: .4s;
+
+                        &:hover {
+                            box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+                        }
+                    }
+                }
+            }
+
+            .moreData {
+                .sizeData {
+                    display: flex;
+                    align-items: baseline;
+                    h3{
+                        font-weight: 400;
+                    }
+                    
+                }
+                .catagoryData{
+                    h3{
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .DetailsSec {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 130vh;
+    
+        .DetailsDiv {
+            width: 80%;
+            height: 115vh;
+            .productDetails {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+    
+                .detailsImg {
+                    height: 40vh;
+                    img {
+                        width: 300px;
+                        height: 300px;
+                    }
+                }
+    
+                .detailsData {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 50vh;
+    
+                    .importantData {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 30px;
+                    }
+    
+                    .sumAndBuy {
+                        display: flex;
+                        width: 300px;
+                        justify-content: space-between;
+                        input {
+                            width: 70px;
+                            height: 40px;
+                            border: none;
+                            border-radius: 7px;
+                            font-size: 22px;
+                            padding-left: 20px;
+                        }
+    
+                        button {
+                            width: 130px;
+                            height: 40px;
+                            border-radius: 15px;
+                            background-color: #bdefd7;
+                            border: none;
+                            font-weight: 500;
+                            transition: .4s;
+    
+                            &:hover {
+                                box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+                            }
+                        }
+                    }
+                }
+    
+                .moreData {
+                    .sizeData {
+                        display: flex;
+                        align-items: baseline;
+                        h3{
+                            font-weight: 400;
+                        }
+                        
+                    }
+                    .catagoryData{
+                        h3{
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+  }

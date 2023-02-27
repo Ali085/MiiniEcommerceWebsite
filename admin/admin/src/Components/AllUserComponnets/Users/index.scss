@@ -1,0 +1,62 @@
+.usersSec {
+    width: 82%;
+    margin-left: 18%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .usersDiv {
+        width: 80%;
+
+        .UserDiv {
+            display: flex;
+            flex-direction: column;
+
+            .UserInfo {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                border: 3px solid gray;
+                border-radius: 5px;
+                margin: 7px 0 7px 0;
+                justify-content: space-between;
+                height: 80px;
+                transition: .2s;
+
+                &:hover {
+                    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+                }
+
+                .userEmail {
+                    display: flex;
+                    gap: 30px;
+                    width: 30%;
+                    justify-content: space-between;
+                    align-items: baseline;
+
+                    h2 {
+                        font-weight: 500;
+                    }
+
+                    h3 {
+                        font-weight: 400;
+                    }
+                }
+
+                i {
+                    font-size: 20px;
+                }
+
+                button {
+                    background-color: rgb(247, 50, 50);
+                    color: white;
+                    border: none;
+                    padding: 3px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

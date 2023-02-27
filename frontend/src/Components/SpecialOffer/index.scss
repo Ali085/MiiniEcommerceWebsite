@@ -1,0 +1,138 @@
+.Special {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .specialDiv {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        height: 90%;
+        align-items: center;
+        overflow: hidden;
+
+        .chair {
+            background-image: url(https://cdn.shopify.com/s/files/1/0264/9636/8699/products/c828b5b9-a9b7-403e-938c-e2f90f9a50b2_480x480.png?v=1666381782);
+            width: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            transition: .6s;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                font-size: 44px;
+                color: white;
+                font-weight: 300;
+            }
+
+            &:hover {
+                scale: 1.1;
+            }
+        }
+
+        .table {
+            background-image: url(https://greatdanefurniture.com/cms_uploads/images/1301_untitled-3_0002_ten-table_smoked-oak_300x105cm_ii20-1.jpg);
+            width: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            transition: .6s;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 0;
+            margin-bottom: 0;
+
+            h2 {
+                font-size: 44px;
+                color: white;
+                font-weight: 300;
+            }
+
+            &:hover {
+                scale: 1.1;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .Special {
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .specialDiv {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            overflow: hidden;
+
+            .chair {
+                background-image: url(https://cdn.shopify.com/s/files/1/0264/9636/8699/products/c828b5b9-a9b7-403e-938c-e2f90f9a50b2_480x480.png?v=1666381782);
+                width: 50%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 100%;
+                transition: .6s;
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                h2 {
+                    font-size: 24px;
+                    color: white;
+                    font-weight: 300;
+                }
+
+                &:hover {
+                    scale: 1.1;
+                }
+            }
+
+            .table {
+                background-image: url(https://greatdanefurniture.com/cms_uploads/images/1301_untitled-3_0002_ten-table_smoked-oak_300x105cm_ii20-1.jpg);
+                width: 50%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 100%;
+                transition: .6s;
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                z-index: 0;
+                margin-bottom: 0;
+
+                h2 {
+                    font-size: 24px;
+                    color: white;
+                    font-weight: 300;
+                }
+
+                &:hover {
+                    scale: 1.1;
+                }
+            }
+        }
+    }
+}

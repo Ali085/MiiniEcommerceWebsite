@@ -1,0 +1,91 @@
+.acceptedSec {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(112, 236, 112);
+
+    .acceptedDiv {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 15px;
+        gap: 20px;
+
+        .textAcc {
+            width: 80%;
+            text-align: center;
+
+            h3 {
+                font-size: 16px;
+            }
+        }
+
+        button {
+            width: 130px;
+            height: 40px;
+            border-radius: 15px;
+            background-color: #bdefd7;
+            border: none;
+            font-weight: 500;
+            transition: .3s;
+
+            &:hover {
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .acceptedSec {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(112, 236, 112);
+
+        .acceptedDiv {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 30vh;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 15px;
+            gap: 20px;
+
+            .textAcc {
+                width: 80%;
+                text-align: center;
+
+                h3 {
+                    font-size: 16px;
+                }
+            }
+
+            button {
+                width: 130px;
+                height: 40px;
+                border-radius: 15px;
+                background-color: #bdefd7;
+                border: none;
+                font-weight: 500;
+                transition: .3s;
+
+                &:hover {
+                    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                }
+            }
+
+        }
+    }
+}

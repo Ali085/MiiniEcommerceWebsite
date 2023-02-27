@@ -1,0 +1,16 @@
+.shopHeader{
+    margin-top: 50px;
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/11/10/60057/shopping-07.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .shopDiv{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

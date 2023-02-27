@@ -1,0 +1,42 @@
+.buyingSec{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    .buyingDiv{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+        background: rgb(175,233,165);
+background: linear-gradient(0deg, rgba(175,233,165,1) 0%, rgba(76,227,76,1) 100%);
+        i{
+            font-size: 60px;
+            color: white;
+        }
+        h3{
+            color: white;
+        }
+    }
+    button {
+        width: 130px;
+        height: 40px;
+        border-radius: 15px;
+        background-color: #bdefd7;
+        border: none;
+        font-weight: 500;
+        transition: .3s;
+    
+        &:hover {
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        &:disabled{
+            background-color: gray;
+            cursor: wait;
+        }
+    }
+}

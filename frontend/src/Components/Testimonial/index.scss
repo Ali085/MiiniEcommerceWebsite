@@ -1,0 +1,87 @@
+.testimonial{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .testiDiv{
+        width: 60%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 70%;
+        .testiParag{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            p{
+                font-size: 20px;
+                color: gray;
+            }
+        }
+        .testiImg{
+            img{
+                width: 70px;
+                border-radius: 50%;
+            }
+        }
+        .testiName{
+            display: flex;
+            align-items: baseline;
+            gap: 10px;
+            h3{
+                font-size: 18px;
+            }
+            p{
+                font-size: 18px;
+                color: gray;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .testimonial{
+        height: 55vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .testiDiv{
+            width: 60%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 70%;
+            .testiParag{
+                width: 80%;
+                display: flex;
+                justify-content: center;
+                p{
+                    font-size: 10px ;
+                    color: gray;
+                }
+            }
+            .testiImg{
+                img{
+                    width: 40px;
+                    border-radius: 50%;
+                }
+            }
+            .testiName{
+                display: flex;
+                align-items: baseline;
+                gap: 10px;
+                h3{
+                    font-size: 18px;
+                }
+                p{
+                    font-size: 18px  ;
+                    color: gray;
+                }
+            }
+        }
+    }
+  }

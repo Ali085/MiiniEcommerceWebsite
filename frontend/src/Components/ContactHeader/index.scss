@@ -1,0 +1,14 @@
+.contact{
+    height: 80vh;
+    width: 100%;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/924/937/original/empty-minimal-wooden-top-table-wood-podium-in-white-background-with-green-leaves-for-product-presentation-mock-up-show-cosmetic-product-display-podium-stage-pedestal-or-platform-3d-free-vector.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .contactDiv{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

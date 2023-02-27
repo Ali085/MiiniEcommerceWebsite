@@ -1,0 +1,189 @@
+
+.homeHeader {
+    height: 100vh;
+
+
+}
+
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item {
+    height: 100vh;
+    max-width: 100%;
+
+}
+
+.firstSlider {
+    background-image: url(https://velcdn.azureedge.net/-/media/marketing/us/img/1280%20x%20853/influencer/thisoldhouse2019-skymax-stairwell.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: 100%;
+    background-size: cover;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+            font-weight: 400;
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 80px;
+            font-weight: 500;
+        }
+    }
+
+
+}
+
+.secondSlider {
+    background-image: url(https://cdn.mos.cms.futurecdn.net/Pi2NRNYKLnPRb9D8b47AjL.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: 100%;
+    background-size: cover;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+            font-weight: 400;
+            font-size: 18px;
+            color: white;
+        }
+
+        p {
+            font-size: 80px;
+            font-weight: 500;
+            color: white;
+        }
+    }
+}
+
+.threeSlider {
+    background-image: url(https://www.lamp.es/images/583334/default.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: 100%;
+    background-size: cover;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+            font-weight: 400;
+            font-size: 18px;
+            color: gray;
+        }
+
+        p {
+            font-size: 80px;
+            font-weight: 500;
+            color: rgb(0, 0, 0);
+
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .firstSlider {
+        background-image: url(https://velcdn.azureedge.net/-/media/marketing/us/img/1280%20x%20853/influencer/thisoldhouse2019-skymax-stairwell.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-clip: 100%;
+        background-size: cover;
+    
+        div {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+    
+            h2 {
+                font-weight: 400;
+                font-size: 18px;
+            }
+    
+            p {
+                font-size: 30px;
+                font-weight: 500;
+            }
+        }
+    
+    
+    }
+    
+    .secondSlider {
+        background-image: url(https://cdn.mos.cms.futurecdn.net/Pi2NRNYKLnPRb9D8b47AjL.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-clip: 100%;
+        background-size: cover;
+    
+        div {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+    
+            h2 {
+                font-weight: 400;
+                font-size: 18px;
+                color: white;
+            }
+    
+            p {
+                font-size: 30px;
+                font-weight: 500;
+                color: white;
+            }
+        }
+    }
+    
+    .threeSlider {
+        background-image: url(https://www.lamp.es/images/583334/default.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-clip: 100%;
+        background-size: cover;
+    
+        div {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+    
+            h2 {
+                font-weight: 400;
+                font-size: 18px;
+                color: gray;
+            }
+    
+            p {
+                font-size: 30px;
+                font-weight: 500;
+                color: rgb(0, 0, 0);
+    
+            }
+        }
+    }
+}
